@@ -1,0 +1,125 @@
+html {
+    height: 100%;
+    width: 1000px;
+    background-color: hsla(200,40%,30%,.4);
+    background-image:   
+      url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+      url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+    background-repeat: repeat-x;
+    background-position: 
+      0 20%,
+      0 100%,
+      0 50%,
+      0 100%,
+      0 0;
+    background-size: 
+      2500px,
+      800px,
+      400px 200px,
+      1000px,
+      400px 260px;
+    animation: 50s para infinite linear;
+      font-size: 85px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+   overflow: hidden;
+   margin: auto ;
+    }
+  
+   h1 { 
+      color: white;  
+    text-shadow: grey 10px 0 10px;
+     font-family: 'Inconsolata', monospace; 
+     font-size: 90px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+   overflow: hidden;
+  }
+  
+  #quoteDisplay{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+     margin: auto ;
+     color:grey;
+     display: flex;
+  }
+  button{
+    justify-items: center;
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform,opacity;
+    z-index: 0;
+    margin: auto ;
+    text-align: center;
+    display: flex;
+  }
+  
+  .button-17:hover {
+    background: #F6F9FE;
+    color: darkseagreen;
+  }
+  
+  .button-17:active {
+    box-shadow: 0 10px 10px 0 rgb(60 64 67 / 30%), 0 11px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+  }
+  
+  .button-17:focus {
+    outline: none;
+    border: 2px solid darkseagreen;
+  }
+  
+  
+  
+  @keyframes para {
+    100% {
+      background-position: 
+        -5000px 20%,
+        -800px 95%,
+        500px 50%,
+        1000px 100%,
+        400px 0;
+      }
+    }
+  
+  /* Media Queries: Tablet Landscape */
+  @media screen and (max-width: 1060px) {
+      #primary { width:67%; }
+      #secondary { width:30%; margin-left:3%;}  
+  }
+  
+  /* Media Queries: Tabled Portrait */
+  @media screen and (max-width: 768px) {
+      #primary { width:100%; }
+      #secondary { width:100%; margin:0; border:none; }
+  }
